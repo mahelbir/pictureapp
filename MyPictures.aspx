@@ -44,12 +44,14 @@
                         <asp:ListItem Value="5">5 pixel</asp:ListItem>
                     </asp:DropDownList>
                 </div>
-                <div class="col-md-8 row">
-                    <div class="col-12">
-                        <asp:Image ID="ImgMain" runat="server" Height="480px" Visible="False" Width="640px" />
-                    </div>
-                    <div class="col-12">
-                        <asp:Label ID="LabelDesc" CssClass="text-primary" runat="server"></asp:Label>
+                <div class="col-md-8">
+                    <div class="row text-center">
+                        <div class="col-12">
+                            <asp:Image ID="ImgMain" runat="server" Height="480px" Visible="False" Width="640px" />
+                        </div>
+                        <div class="col-12">
+                            <asp:Label ID="LabelDesc" CssClass="text-primary" runat="server"></asp:Label>
+                        </div>
                     </div>
                 </div>
             </div>
