@@ -46,6 +46,7 @@ namespace PictureApp
                 ImgMain.ToolTip = ListPicture.SelectedItem.Text;
                 ImgMain.ImageUrl = "images/" + slugs[index] + ".jpg";
                 LabelDesc.Text = descriptions[index];
+                this.ApplyBorder();
             }
             else
             {
